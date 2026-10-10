@@ -1,0 +1,13 @@
+{
+  "engineVersion": "0.17.0",
+  "monitorPort": 47821,
+  "profileNames": ["main", "acc2", "acc3", "acc4", "acc5", "acc6", "acc7", "acc8"],
+  "fallbackOrder": ["main", "acc3", "acc6", "acc8", "acc2", "acc4", "acc5", "acc7"],
+  "fallbackThreshold": 85,
+  "weeklyThreshold": 98,
+  "checkScoped": true,
+  "checkWeekly": true,
+  "lastResort": "acc3",
+  "preemptiveRotation": false,
+  "refreshIntervalMs": 90000
+}

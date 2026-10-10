@@ -1,0 +1,16 @@
+{
+  "name": "clauth-workstation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal Windows and macOS Claude account monitor and workstation setup",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "setup": "node src/cli.mjs setup",
+    "doctor": "node src/cli.mjs doctor",
+    "monitor": "node src/cli.mjs monitor --read-only",
+    "start": "node src/cli.mjs serve",
+    "test": "node --test",
+    "check": "node scripts/check-source.mjs"
+  }
+}

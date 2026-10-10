@@ -1,0 +1,5 @@
+This private companion preserves the owner's local dashboard design and policy.
+The separately downloaded clauth engine is maintained by uwuclxdy and contributors:
+https://github.com/uwuclxdy/clauth
+Engine version: v0.17.0 (MIT license, see upstream LICENSE).
+No engine source or authenticated runtime data is bundled in this repository.
